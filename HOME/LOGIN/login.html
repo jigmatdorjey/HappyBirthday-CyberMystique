@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="CSS/style.css" />
+		
+		<title>Form Validator</title>
+
+	</head>
+	<body>
+		<div class="container">
+			<form id="form" class="form">
+				<!-- <h2>JIGMAT DORJEY</h2>	 -->
+				<div class="form-control">
+
+					<label for="loginPassword">Password </label>
+					<!-- <i class="fa-solid fa-arrow-right-long"></i> BirthDate -->
+					<input type="password" id="password" placeholder="DD-MM-YY(BirthDate)" />
+					<span style="color:red" id="pass_error"></span>
+										 
+				</div>
+
+				<button  type="submit"  value="Login" onclick="auth()">Submit</button>
+			</form>
+		</div>
+			<script src="JS/app.js"></script>
+
+	</body>
+</html>
